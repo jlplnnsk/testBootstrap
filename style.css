@@ -8,11 +8,12 @@ body {
   margin: 0;
   
 }
-
+ 
+/*otázka 10*/
 /* Header/logo Title */
 .header {
   padding: 110px;
-  text-align: center;
+  text-align: left;
   background-image: url("./images/landscape.jpg");
  
 }
@@ -20,6 +21,7 @@ body {
 /* Increase the font size of the heading */
 .header h1 {
   font-size: 60px;
+  ;
 }
 
 /* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
@@ -30,14 +32,16 @@ body {
   top: 0;
 }
 
+/*otázka 8 a 9*/
 /* Style the navigation bar links */
 .navbar a {
-  float: left;
+  float: right;
   display: block;
   color: white;
   text-align: center;
   padding: 14px 20px;
   text-decoration: none;
+  font-size: 70px;
 }
 
 /* Right-aligned link */
@@ -51,10 +55,11 @@ body {
   color: black;
 }
 
+/*otázka 7*/
 /* Active/current link */
 .navbar a.active {
-  background-color: #666;
-  color: white;
+  background-color: rgb(43, 205, 226);
+  color: rgb(17, 14, 14);
 }
 
 /* Column container */
@@ -62,11 +67,13 @@ body {
   display: flex;
 }
 
+/*otázka 6*/
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 .side {
   flex: 30%;
-  background-color: #f1f1f1;
+  background-color: #0e0808;
+  color: #fff;
   padding: 20px;
 }
 
@@ -77,10 +84,11 @@ body {
   padding: 20px;
 }
 
+/*otázka 4*/
 /* Footer */
 .footer {
-  padding: 20px;
-  background: #474747;
+  padding: 60px;
+  background: #0b741d;
 }
 
 /* Center the text */
